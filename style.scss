@@ -1,0 +1,18 @@
+@mixin mystyle {
+    color: rosybrown;
+    display: block;
+    padding: 10px auto;
+    
+}
+
+#container{
+    background-color: aqua;
+    @include mystyle();
+    h1{
+        color: blue;
+        &:hover{
+            color: red;
+        }
+    }
+    
+}

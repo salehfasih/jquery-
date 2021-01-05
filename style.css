@@ -1,0 +1,15 @@
+#container {
+  background-color: aqua;
+  color: rosybrown;
+  display: block;
+  padding: 10px auto;
+}
+
+#container h1 {
+  color: blue;
+}
+
+#container h1:hover {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
